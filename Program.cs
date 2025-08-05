@@ -11,7 +11,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Configuración básica
 builder.Services.AddControllers();
 
-var builder = WebApplication.CreateBuilder(args);
 
 // Configuración para escuchar en todas las interfaces de red
 builder.WebHost.UseUrls("http://localhost:5062", "http://0.0.0.0:5062");
